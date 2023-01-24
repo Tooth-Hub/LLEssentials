@@ -1,22 +1,33 @@
 {
     "format_version": 1,
-    "tooth": "github.com/Tooth-Hub/<repository name>",
-    "version": "<version>",
-    "dependencies": {},
+    "tooth": "github.com/Tooth-Hub/LLEssentials",
+    "version": "2.9.0",
+    "dependencies": {
+       "github.com/Tooth-Hub/LiteLoaderBDS": [
+           [
+               "2.9.x"
+           ]
+       ]
+    },
     "information": {
-        "name": "<name>",
-        "description": "<description>",
-        "author": "<author>",
-        "license": "<license>",
-        "homepage": "<homepage>"
+        "name": "LLEssentials",
+        "description": "Essentials plugin based on LiteLoaderBDS",
+        "author": "LiteLDev",
+        "license": "GPLv3",
+        "homepage": "https://github.com/LiteLDev/LLEssentials"
     },
     "placement": [
         {
-            "source": "<source>",
-            "destination": "<destination>"
-        }
+            "source": "LLHelper.dll",
+            "destination": "plugins/LLHelper.dll"
+        },
+	{
+	    "source": "LLTpa.dll",
+	    "destination": "plugins/LLTpa.dll"
+	}
     ],
     "possession": [
-        "<possession>"
+        "plugins/LLHelper/",
+	"plugins/LLTpa/"
     ]
 }
