@@ -1,11 +1,11 @@
 {
     "format_version": 1,
     "tooth": "github.com/Tooth-Hub/LLEssentials",
-    "version": "2.9.0",
+    "version": "2.10.0",
     "dependencies": {
        "github.com/Tooth-Hub/LiteLoaderBDS": [
            [
-               "2.9.x"
+               "2.10.x"
            ]
        ]
     },
@@ -27,7 +27,5 @@
 	}
     ],
     "possession": [
-        "plugins/LLHelper/",
-	"plugins/LLTpa/"
     ]
 }
